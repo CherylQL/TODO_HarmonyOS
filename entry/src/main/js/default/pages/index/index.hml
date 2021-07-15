@@ -1,0 +1,17 @@
+<!-- xxx.hml -->
+
+<div class="container">
+    <div class="index-title">
+        <text class="title-text">{{headTitle}}</text>
+        <button class="tran-button" onclick="tryContinueAbility">{{$t('Strings.tryContinueAbility')}}</button>
+    </div>
+    <list class="list">
+        <list-item class="listItem" type="listItem" for="{{textList}}" onclick="editItem($idx)"  onlongpress="deleteItemFromList($idx)">
+            <text class="index">{{ $idx + 1 }}</text>
+            <text class="desc-text">{{$item.title}}</text>
+            <button class="remove" onclick="deleteItemFromList($idx)">{{$t('Strings.buttonDeletePromt')}}</button>
+        </list-item>
+    </list>
+
+    <button class="add-item-button" onclick="addItem2List">{{$t('Strings.buttonValuePromt')}}</button>
+</div>

@@ -1,0 +1,99 @@
+/* xxx.css */
+.container {
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.index-title{
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+}
+.title-text {
+    color: #1a1a1a;
+    font-size: 30px;
+    padding:0px 30px;
+}
+.list {
+    margin: 0 18px;
+}
+
+.add-item-button{
+    width: 150px;
+    height: 60px;
+    background-color: #007dff;
+    font-size: 19px;
+    text-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+}
+.tran-button{
+    background-color: #007dff;
+    font-size: 19px;
+    text-color: white;
+    padding: 10%;
+}
+.index{
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007dff;
+    border-radius: 100px;
+}
+.listItem{
+    margin-top: 10px;
+    padding:20px 13px;
+    background-color: #fff;
+    border-radius: 18px;
+}
+.remove {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background-color: red;
+}
+
+.desc-text {
+    width: 600px;
+    height: 26px;
+    margin: 50% 10%;
+    font-size: 20px;
+}
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("../../common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+}

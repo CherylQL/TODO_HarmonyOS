@@ -1,0 +1,14 @@
+{
+  "Strings": {
+    "listValuePromt": "请输入新增事件",
+    "buttonValuePromt": "新建项目",
+    "buttonDeletePromt": "删除",
+    "title": "标题",
+    "detailTitle": "详情页面",
+    "addTitle": "请添加标题",
+    "addDescription": "请添加描述",
+    "description": "详情",
+    "back": "返回",
+    "tryContinueAbility": "任务迁移"
+  }
+}

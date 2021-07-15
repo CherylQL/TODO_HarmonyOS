@@ -1,0 +1,19 @@
+<div class="container">
+    <div class ="item-container">
+        <div class="detail-title">
+            <button class="return-button" onclick="return2Index">{{$t('Strings.back')}}</button>
+            <text class="detail-title">{{$t('Strings.detailTitle')}}</text>
+        </div>
+        <div class="item-content">
+            <text class="item-title">{{$t('Strings.title')}}</text>
+            <input class="title-text" placeholder="{{$t('Strings.addTitle')}} " value="{{newTitle}}" onchange="getNewTitle"></input>
+        </div>
+        <div class="item-content">
+            <text class="item-title">{{$t('Strings.description')}}</text>
+            <input class="desc-text" placeholder="{{$t('Strings.addDescription')}}" value="{{newDescription}}" onchange="getNewDescription"></input>
+        </div>
+        <div class="item-content">
+            <button class="input-button" onclick="addItem">{{buttonInfo}}</button>
+        </div>
+    </div>
+</div>

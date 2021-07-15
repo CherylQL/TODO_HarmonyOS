@@ -1,0 +1,14 @@
+{
+  "Strings": {
+    "listValuePromt": "Please input new TODO.",
+    "buttonValuePromt": "Confirm",
+    "buttonDeletePromt": "Delete",
+    "title": "title",
+    "detailTitle": "Detail Page",
+    "addTitle": "Please add title",
+    "addDescription": "Please add description",
+    "description": "Description",
+    "back": "Back",
+    "tryContinueAbility": "TryContinueAbility"
+  }
+}
